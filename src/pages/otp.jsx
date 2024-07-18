@@ -1,5 +1,5 @@
 import React from "react";
-import back from '../assets/forback.png'
+import back from '../assets/pray.jpg'
 import Code from "../components/code"
 
 
@@ -18,6 +18,7 @@ export default function Otp() {
     const container = {
 
         backgroundImage: `url(${back})`,
+        backgroundSize: "cover",
         borderRadius: "20px",
         margin: "10px",
         height: "550px",

@@ -1,5 +1,5 @@
 import React from 'react';
-import back from '../assets/forback.png'
+import back from '../assets/worship.jpg'
 
 
 export default function Information() {

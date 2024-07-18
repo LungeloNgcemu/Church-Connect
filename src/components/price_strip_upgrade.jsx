@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./price_card";
-import backImage from "../assets/papper.png"
+import backImage from "../assets/pray.jpg"
 
 export default function StripUpgrade() {
 
@@ -42,7 +42,9 @@ export default function StripUpgrade() {
         display : "flex",
         justifyContent: "center",
         fontSize: "2rem",
-        color: "black"
+        color: "white",
+        textShadow: "2px 4px 3px grey",
+        borderRadius: "20px",
 
     }
 

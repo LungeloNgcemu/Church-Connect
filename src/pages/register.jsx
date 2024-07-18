@@ -40,10 +40,15 @@ export default function Register() {
     }
 
     const contain = {
-height: "80%",
-        backgroundColor: "white",
-        padding: "100px",
-        paddingTop: "50px",
+// height: "80%",
+//         backgroundColor: "white",
+//         padding: "100px",
+//         paddingTop: "50px",
+
+display: "flex",
+justifyContent: "center",
+alignItems: "center",
+// height: "80vh"
        
     };
     

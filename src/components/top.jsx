@@ -1,5 +1,5 @@
 import React from "react";
-import backImage from "../assets/forback.png"
+import backImage from "../assets/pray.jpg"
 
 export default function Tops() {
 
@@ -12,7 +12,9 @@ export default function Tops() {
 
     const welcome = {
         padding: "10px",
-        fontSize: "3rem"
+        fontSize: "3rem",
+        color: "black",
+        textShadow: "2px 4px 3px grey",
 
     };
 

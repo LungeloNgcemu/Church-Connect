@@ -1,7 +1,7 @@
 import React from "react";
-import wallpaper from "./wallpapper.png";
+import wallpaper from "../assets/pray.jpg";
 import NavBar from "./navbar";
-import phone from "../assets/phone.png"
+import phone from "../assets/phoneClear.png"
 import { useNavigate } from "react-router-dom";
 
 export default function Head() {
@@ -27,11 +27,11 @@ export default function Head() {
 
 
     const imgStyle = {
-        width: "220px", // Adjust width as needed
-        height: "auto", // Maintain aspect ratio
+        width: "550px", // Adjust width as needed
+        height: "450px", // Maintain aspect ratio
         position: "relative",
-        left: "200px",
-        marginRight: "100px" // Position relative to parent
+        left: "100px",
+        marginRight: "70px" // Position relative to parent
         // Adjust distance from bottom
 
         // Ensure image is above the overlay
@@ -81,7 +81,7 @@ export default function Head() {
     };
 
     const overlayContentStyle = {
-       backgroundColor: "rgba(255, 255, 255, 0.7)",
+       backgroundColor: "rgba(255, 255, 255, 0.33)",
         padding: "20px",
         borderRadius: "20px"
     };

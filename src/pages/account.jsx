@@ -3,7 +3,7 @@ import React from 'react';
 import AccountTops from '../components/account_tops';
 import StripUpgrade from '../components/price_strip_upgrade';
 import Information from '../components/information';
-import backImage from "../assets/papper.png"
+import backImage from "../assets/pray.jpg"
 
 
 
@@ -20,8 +20,22 @@ export default function Account() {
         backgroundColor: "blue",
         display : "flex",
         justifyContent: "center",
-        fontSize: "2rem",
-        color: "LightSlateGrey"
+        fontSize: "3rem",
+        color: "LightSlateGrey",
+        borderRadius: "20px",
+        border: "1px solid white",
+        color: "white",
+        textShadow: "2px 4px 3px grey",
+        textAlign: "center",
+        alignItems: "center",
+        alignContent: "center",
+        alignSelf: "center",
+        alignItems: "center",
+        alignContent: "center",
+        alignSelf: "center",
+        marginTop: "50px",
+      
+        
 
     }
 
@@ -33,6 +47,8 @@ export default function Account() {
             <AccountTops />
 
             <div style={ upgrade }>
+
+            <h4>Welcome Back</h4>
               
             </div>
 

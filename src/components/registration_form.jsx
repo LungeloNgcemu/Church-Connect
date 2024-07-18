@@ -3,6 +3,7 @@ import PhoneNumber from './phone_number';
 import PhoneInput from 'react-phone-number-input';
 import CustomInputRegistration from './custom_input_registration';
 import { useNavigate } from "react-router-dom";
+import pray from "../assets/pray.jpg"
 
 function RegistrationForm() {
     const [formData, setFormData] = useState({
@@ -34,10 +35,19 @@ function RegistrationForm() {
 
 
     const formStyle = {
+        color: "white",
+        textShadow: "2px 4px 3px rgba(0, 0, 0, 0.3)",
+    
+        backgroundColor: "red",
+        backgroundImage: `url(${pray})`,
+        backgroundSize: "cover",
+        padding: "30px",
+        margin: "50px",
         display: "flex",
         flexDirection: "column",
         width: "100%",
-        alignItems: "flex-end" // Align items to the right
+        alignItems: "flex-end",
+        borderRadius: "20px" // Align items to the right
     };
 
     const labelStyle = {
@@ -52,7 +62,10 @@ function RegistrationForm() {
         marginLeft: "10px",
         width: "60%",
         height: "40px",
-        fontSize: "20px"
+        fontSize: "20px",
+        borderRadius: "10px",
+        border: "none",
+         boxShadow: "0 1px 8px grey",
     };
 
     const button = {
@@ -62,7 +75,7 @@ function RegistrationForm() {
         backgroundColor: "#6495ED", // Example background color
         color: "white", // Example text color
         border: "none", // Remove default border
-        borderRadius: "2px", // Example border radius
+        borderRadius: "10px", // Example border radius
         cursor: "pointer", // Change cursor on hover
         boxShadow: "0 1px 8px grey",
     };

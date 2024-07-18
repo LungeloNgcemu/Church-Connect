@@ -1,5 +1,5 @@
 import React from "react";
-import backImage from "../assets/forback.png"
+import backImage from "../assets/pray.jpg"
 
 export default function Welcome() {
 
@@ -12,7 +12,8 @@ export default function Welcome() {
 
     const welcome = {
         padding: "30px",
-        fontSize: "3rem"
+        fontSize: "3rem",
+        textShadow: "2px 4px 3px grey",
 
     };
 

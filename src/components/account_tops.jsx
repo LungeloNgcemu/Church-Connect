@@ -1,5 +1,5 @@
 import React from "react";
-import backImage from "../assets/papper.png"
+import backImage from "../assets/pray.jpg"
 import Avatar from "./avatar_circle";
 
 export default function AccountTops() {
@@ -13,7 +13,8 @@ export default function AccountTops() {
 
     const welcome = {
         padding: "10px",
-        fontSize: "2rem",
+        fontSize: "2.9rem",
+        textShadow: "2px 4px 3px grey",
 
 
     };
@@ -23,7 +24,7 @@ export default function AccountTops() {
         backgroundImage: `url(${backImage})`,
         backgroundSize: "cover",  // Ensure the image covers the div
         backgroundPosition: "center",
-        color: "black",
+        color: "white",
         padding: "20px",
         textAlign: "center",
         marginLeft: "0px",
@@ -43,12 +44,14 @@ export default function AccountTops() {
         display: "flex",
         justifyContent: "center",
         paddingRight: "200px",
-        fontSize: "1.8rem"
+        fontSize: "1.8rem",
+        textShadow: "2px 4px 3px grey",
     }
 
     const info = {
         display: "flex",
-        width: "20%"
+        width: "20%",
+        textShadow: "2px 4px 3px grey",
 
     }
 
@@ -75,9 +78,9 @@ export default function AccountTops() {
 
             </div>
 
-            <div style={ welcome }>
+            {/* <div style={ welcome }>
                 <h4> Welcome Back</h4>
-            </div>
+            </div> */}
 
         </div>
     );
